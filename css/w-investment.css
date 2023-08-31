@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+	background-color: #eef5ff;
+}
+#banner{
+	background-color: #eef5ff;
+    color: #000;
+	padding-top:4.5%;
+}
+.promo-title{
+	font-size:40px;
+	font-weight:600;
+	margin-top:60px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.promo-content{
+	font-size:25px;
+	font-weight:400;
+	margin-top: 30px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+b{
+	color: #678cdc;
+	font-weight: bolder;
+	font-size: larger;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bottom-img{
+	width:100%;
+}
+.button{
+    border: none;
+    background-color: #18004c;
+    margin:10px 10px;
+    padding:10px 30px;
+    border-radius: 20PX;
+    font-family: 'Signika Negative', sans-serif;
+    color:#ffffff;
+	font-size: 23.04px;
+	text-decoration: none;
+}
+.button:hover{
+    transform: scale(1.1);
+}
+
+.title{
+	font-size:27.65px;
+	font-weight:600;
+    font-family: 'Signika Negative', sans-serif;
+}
+.title b{
+	font-weight: bolder;
+	font-size: larger;
+	color: #18004c !important;
+	font-family: 'Signika Negative', sans-serif;
+}
+.content{
+	font-size:19.97px;
+	font-family: 'Signika Negative', sans-serif;
+}
+.detail{
+    font-size:27.65px;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: bold;
+}
+
+.btns{
+    box-shadow: none !important;
+    border: none;
+    display: inline-flex;
+    margin:5px;
+    padding: 8px 25px;
+    background-color: #18004c;
+    color:white;
+    border-radius: 20px;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 19.97px;
+} 
+.btns:hover{
+    transform: scale(1.1);
+    background-color:whitesmoke;
+    color:#18004c;
+    border: 2px solid #18004c;
+}
+
+#investment{
+    background-color:#eef5ff;
+    padding: 50px 0;
+}
+.investor-details{
+    box-shadow: 0 2px 70px 0 rgba(5, 11, 34, 0.18);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding:20px;
+    font-family: 'Signika Negative', sans-serif;
+	background-color: whitesmoke;
+}
+
+.search{
+    padding:30px 0;
+    background-color: whitesmoke;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	border-radius: 20px;
+}
+.search .detail{
+    padding:10px 60px 0px;
+}
+.container h1{
+	color: #18004c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding-top: 40px;
+    font-size: 46.08px;
+}
+.investor{
+    padding-top:130px;
+}
+.investor img{
+    width:200px;
+    height:200px;
+    margin:-110px 0% 0px;
+}
+
+.counter{
+    /* margin:20px 0% 50px; */
+    /* border-radius: 25px; */
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.counter h1{
+    text-align: center;
+    padding: 20px;
+    color:#18004c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 900;
+}
+.counter-row{
+    padding:20px 0px;
+    margin: 80px 0px 30px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset; */
+    border-radius: 20px;
+    /* display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; */
+    width: 100%;
+}
+.counter-row-col{
+    height:400px;
+    width:550px;
+    text-align: center;
+    padding: 30px 20px 0px;
+    background:whitesmoke;
+    border-radius: 20px;
+    margin:20px 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    position: relative;
+
+}
+.counter-row-col::after{
+    content: '';
+    position: absolute;
+    border:5px solid #666;
+    border-radius: 20px;
+    z-index:-1;
+    
+}
+
+/* @media (max-width: 1034px){
+    .counter-row-col {
+        margin-top: 80px;
+    }
+} */
+
+

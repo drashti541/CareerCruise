@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+	background-color: #eef5ff;
+}
+#investment{
+    background-color:#eef5ff;
+    padding: 100px 0;
+}
+.invest h1{
+    text-align: center;
+    padding: 20px 20px 5px;
+    color:#18004c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+.invest h4{
+    text-align: center;
+    color:#18004c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+}
+.investment{
+    box-shadow: 0 2px 70px 0 rgba(5, 11, 34, 0.18);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding:20px;
+    /* margin-top:150px; */
+    font-family: 'Signika Negative', sans-serif;
+}
+.investor-update{
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.investor-update h3{
+    color: #18004c;
+}
+.investor-update p{
+    margin-bottom: 0 !important;
+}
+.investor-update .sec2 h5{
+    /* padding-top:10px; */
+    color: #2c4049;
+}
+.investor-update .sec2 hr{
+    height: 2px;
+}
+.investor-update .sec3 p{
+    padding-bottom: 40px !important;
+}
+.apply-btn{
+    background-color: #18004c;
+    height: 60px; 
+    padding: 7px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.apply-btn .btn{
+    box-shadow: none !important;
+    margin:10px 10px;
+    padding: 10px 20px;
+    box-shadow: none !important;
+    background: transparent;
+    /* border: 1px solid #fff; */
+    background-color: #fff;
+    color:#18004c;
+    border-radius: 20px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.apply-btn .btn:hover{
+    transform: scale(1.1);
+    background-color:whitesmoke;
+    color:#efefef;
+}
+
+.apply-btn a{
+    text-decoration: none;
+    color:#18004c;
+}
+
+.apply-btn a:hover{
+    text-decoration: none;
+    color:#18004c;
+}
+
+.apply-btn a:visited{
+    text-decoration: none;
+    color:#18004c;
+}
+

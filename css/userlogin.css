@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.containermain{
+    background-color: #eafaf7;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border: none;
+    border-radius: 20px;
+    padding: 1% 2% !important;
+    margin: 2% 0 0;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding: 4%;
+}
+
+.forms{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    max-width: 80%;
+    transition: height 0.2s ease;
+    background-color: #eafaf7;
+}
+
+.forms h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.9rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.forms h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.forms img{
+    max-width: 100%;
+}
+
+.form{
+    width: 80%;
+    padding: 5%;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: margin-left 0.18s ease;
+}
+
+
+.form .title{
+    position: relative;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.form .title::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 30px;
+    background-color: #381a79;
+    border-radius: 25px;
+}
+
+
+.form .input-field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.input-field input{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    border-bottom: 2px solid #ccc;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.input-field input:is(:focus, :hover){
+    border-bottom-color: #381a79;
+}
+
+.invalid .input-field input{
+    border-bottom-color: #d93025;
+}
+
+.input-field i{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 1rem;
+}
+
+.input-field input:is(:focus, :hover) ~ i{
+    color: #381a79;
+}
+
+.invalid .input-field input ~ i{
+    color: #d93025;
+}
+
+
+
+.input-field i.icon{
+    left: 0;
+}
+.input-field i.show-hide{
+    right: 0;
+    cursor: pointer;
+    padding: 10px;
+}
+
+
+
+.form .text{
+    color: #333;
+    font-size: 0.8rem;
+}
+
+.form a.text{
+    color: #381a79;
+    text-decoration: none;
+}
+.form a:hover{
+    text-decoration: underline;
+}
+
+.form .button{
+    margin-top: 35px;
+}
+
+.form .button input{
+    border: none;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 6px;
+    background-color: #18004c;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button input:hover{
+    background-color: #230069;
+}
+
+.form .login-signup{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.field .error{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 0.7rem;
+    margin-bottom: 0px;
+    color: #999;
+}
+
+.error .error-icon{
+    margin-right: 2%;
+    font-size: 0.8rem;
+}
+
+.form .field{
+   margin-bottom: 0px;
+}
+
+
+.success-msg{
+    width: 100%;
+    height: auto;
+    font-size: 0.8rem;
+    /*border: 1px solid;*/
+	margin: 10px 0px 5px;
+	padding: 10px 10px 10px 30px;
+	background-repeat: no-repeat;
+	background-position: 0px center;
+    color: #4F8A10;
+	/*background-color: #FFCCBA;*/
+	background-image: url('../images/check.png');
+    background-size: 5%;
+}
+
+.error-msg{
+    width: 100%;
+    height: auto;
+    font-size: 0.8rem;
+    /*border: 1px solid;*/
+	margin: 10px 0px 5px;
+	padding: 10px 10px 10px 30px;
+	background-repeat: no-repeat;
+	background-position: 0px center;
+    color: #D63301;
+	/*background-color: #FFCCBA;*/
+	background-image: url('../images/error.png');
+    background-size: 5%;
+}
+
+.error-msg .input-field input ~ i{
+    color: #d93025;
+}
+
+.error-msg .input-field input{
+    border-bottom-color: #d93025;
+}

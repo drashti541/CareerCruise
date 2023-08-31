@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/*body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5% 0;
+}*/
+.container{
+    background-color: #eafaf7;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    border: none;
+    border-radius: 20px;
+    padding: 1% 2%;
+    margin: 2% 0 0;
+}
+
+.heading-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #18004c;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1% 0;
+}
+
+
+.input{
+    width: 100%;
+    padding: 0 35px;
+    border: none;
+    outline: none;
+    font-size: 0.8rem;
+    border: 2px solid #ccc;
+    transition: all 0.2s ease;
+}
+
+.input:is(:focus, :hover, :active){
+    border-color: #381a79;
+}
+
+.input::placeholder{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+}
+
+label{
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7rem;
+}
+
+#formFileSm{
+    background-color: white;
+}
+
+.form-label{
+    font-size: 0.8rem;
+}
+
+.btns{
+    max-width: 100%;
+    margin: 1% 0 0;
+    padding: 0.5% 2%;
+    background-color: #18004c;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+
+.btns:is(:hover, :active){
+    background-color: white;
+    color: #18004c;
+    border: 2px solid #18004c;
+}
+
+

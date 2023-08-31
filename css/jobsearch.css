@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@500&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.banner{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(../LOGO_PROJECT/CC1.png);
+    background-position: center;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.search-job{
+    background-color:#eef5ff;
+    padding:20px;
+}
+.search-box{
+    padding:30px 0;
+    margin:-200px 8% 50px;
+    background-color: #bad7f5;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    font-family: 'Signika Negative', sans-serif;
+}
+.search{
+    padding:30px 0;
+    margin:-50px 6% 50px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+/* .search .cont{
+    margin-bottom: 50px;
+} */
+.company-details{
+    box-shadow: 0 2px 70px 0 rgba(5, 11, 34, 0.18);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    padding:20px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.job-update{
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.job-update .fa{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+.job-update p small {
+    margin-bottom: 0 !important;
+}
+.job-update small{
+    background-color: #efefef;
+    padding:1px 5px;
+    margin:0 5px;
+}
+.job-update a{
+    text-decoration: none !important;
+    color:#89b0e7;
+    float: right;
+}
+.apply-btn{
+    background-color: #18004c;
+    height: 60px; 
+    padding: 7px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.apply-btn .btn{
+    box-shadow: none !important;
+    margin:10px 10px;
+    padding: 0 30px;
+    float: right;
+    box-shadow: none !important;
+    background: transparent;
+    border: 1px solid #fff;
+    background-color: #89b0e7;
+    border-radius: 20px;
+    font-family: 'Signika Negative', sans-serif;
+}
+.apply-btn .btn:hover{
+    transform: scale(1.1);
+    background-color:whitesmoke;
+    color:#18004c;
+}

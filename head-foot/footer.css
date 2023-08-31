@@ -1,0 +1,71 @@
+#main-footer{
+    width:100%;
+    background-color: white;
+	color:#000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5% 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+#main-footer .container .container-fluid{
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+#main-footer .container .container-fluid .row img{
+    width: 30%;
+    align-items: center;
+    font-family: 'Signika Negative', sans-serif;
+}
+#main-footer .container .container-fluid .row p{
+    color: black;
+    font-size: 20px;
+}
+#main-footer .container .container-fluid .row p i{
+    padding-right: 23.04px;
+    color:#000;
+}
+
+#main-footer .container .container-fluid .row p i:hover{
+    color: #18004c;
+    transform: scale(1.1);
+}
+
+
+
+@media (max-width: 768px) {
+    .end-text{
+        text-align: center !important;
+            }
+    #main-footer > main > div > div.row > div{
+        text-align: center !important;
+    }
+     #main-footer > main > div > div.container > div > div:nth-child(2) > p{
+         text-align: center !important;
+     }
+     #main-footer > main > div > div.container-fluid > div > div:nth-child(2) > p{
+         text-align: center !important;
+         margin-right: 0px !important;
+     }
+     #main-footer > main > div.foot-inner > div > div:nth-child(2)> p{
+        text-align: center !important;
+     }
+}
+#main-footer .inner{
+    background-color: #d8eeed;
+    color:#2c4049 !important;
+} 
+#main-footer .inner .foot-inner{
+    width: 100%;
+    color:#2c4049 !important;
+}
+#main-footer .inner .footer-inner .row p{
+    font-family: 'Signika Negative', sans-serif; 
+    color: #2c4049 !important;
+    font-weight: bolder;
+    width: 35%;
+}

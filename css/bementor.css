@@ -1,0 +1,200 @@
+*{box-sizing: border-box;}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    padding: 1% 0 0;
+    background-color: #eef5ff;
+    position: relative;
+    height: auto;
+    width: 100%;
+    z-index: 1;
+    display: block;
+}
+
+.main-head img{
+    width: 100%;
+    background-color: #eef5ff;
+}
+
+.main-content{
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*color: #18004c;*/
+}
+
+
+.main-text h5{
+    font-size: 1.2  rem;
+    color: #678cdc;
+}
+
+.main-text h2{
+    margin: 0 0 0;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.main-text p{
+    font-size: 1.1rem;
+    margin: 8% 0;
+}
+
+
+#btn{
+    max-width: 30%;
+    background-color: #678cdc;
+    color: #000000;
+    padding: 1% 1%;
+    margin: 0% 3% 0 0;
+    border-radius: 20PX;
+    border: 3px solid transparent;
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 0.9rem;
+    text-decoration: none;
+    text-align: center;
+}
+   
+#btn:hover{
+    background-color: transparent;
+    border: 3px solid #678cdc;
+    font-size: 0.9rem;
+}
+   
+   
+.subheading-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #18004c;
+    font-size: 2rem;
+    text-align: center;
+    margin: 5% 0 2%;
+}
+
+.heading-text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #18004c;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 5% 0 2%;
+}
+
+
+.card{
+    background-color: whitesmoke;
+    margin: 0 1% 1%;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+
+.card h6, .joincard h6{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1rem;
+    color: #000000;
+}
+
+.card p, .joincard p{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    color: #373737;
+}
+
+.joincard{
+    background-color: whitesmoke;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 1%;
+    padding: 2% 0 0;
+}
+
+.slate{
+    padding: 1% 8%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    text-align: center;
+}
+
+.slate h3{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.5rem;
+    background-color: #678cdc;
+    width: 40%;
+    padding: 3% 0;
+    border-radius: 50%;  
+}
+
+.slate h6{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    color: #000000;
+}
+.slate p{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    color: #373737;
+    text-align: left;
+}
+
+
+.step{
+    background-color: white;
+    margin: 0 1% 1%;
+    padding: 1% 0;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    text-align: center;
+}
+
+.step .stepnum{
+    background-color: #18004c;
+    color: #ffffff;
+    font-size: 1rem;
+    max-width: 30%;
+    border-radius: 50%;
+    padding:5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: -20% 0 0 -20%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.step .stepnum h4{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin: 0%;
+}
+
+
+.step img{
+    max-width: 40%;
+    margin: 0 0 5%;
+}
+
+.step h6{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 1rem;
+    color: #000000;
+}
+
+.step p{
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    color: #373737;
+}
